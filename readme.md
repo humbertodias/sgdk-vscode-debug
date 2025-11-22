@@ -12,11 +12,11 @@
    * Inspects memory, registers, and variables.
 5. Execution feedback flows back to **VSCode** for visualization and control.
 
-## Demo
+### Demo
 
 https://github.com/user-attachments/assets/a77e0469-bfbd-421e-b953-4df9203399a4
 
-## Requirements
+### Requirements
 
 * [Docker](https://www.docker.com/get-started/) (optional, if using containerized SGDK environment)
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) or any Linux distribution
