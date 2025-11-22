@@ -20,7 +20,7 @@
                     "text": "set confirm off"
                 },
                 {
-                    "text": "set architecture auto"
+                    "text": "set architecture m68k"
                 },
                 {
                     "text": "file ${workspaceFolder}/out/rom.out"
