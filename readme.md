@@ -2,15 +2,14 @@
 
 ### How It Works
 
-1. **VSCode** launches a debug session using your `launch.json` configuration.
-2. **GDB Multiarch** connects to **BlastEm** through a remote pipe or port.
-3. **BlastEm Emulator** loads your ROM and executes instructions.
-4. **GDB** controls execution:
-
-   * Sets breakpoints and watchpoints.
-   * Steps through code.
-   * Inspects memory, registers, and variables.
-5. Execution feedback flows back to **VSCode** for visualization and control.
+1. **VSCode** starts the debug session.
+2. **GDB Multiarch** loads **`rom.out`** (an ELF with symbols).
+3. **BlastEm** loads **`rom.bin`** (a raw Sega Genesis m68k ROM).
+4. **GDB** connects to BlastEm and controls execution:
+   * Breakpoints
+   * Stepping
+   * Inspecting memory and variables
+5. All debug information flows back into **VSCode**.
 
 ### Demo
 
